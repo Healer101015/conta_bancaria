@@ -1,0 +1,23 @@
+{
+  "name": "conta_bancaria",
+  "version": "1.0.0",
+  "description": "Projeto TypeScript conta_bancaria com Menu e classe Colors",
+  "main": "dist/Menu.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Menu.js",
+    "dev": "ts-node src/Menu.ts"
+  },
+  "keywords": [],
+  "author": "João Henrique Brito",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.0"
+  }
+}
